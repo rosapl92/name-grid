@@ -17,18 +17,49 @@ body{
     padding: 1em;
 }
 
-.container > * {
-    margin-bottom: 1.5em;
-}
  /* GRID */
 
 .container{
     display: grid;
-    grid-template-areas: "heder"
-                          "nav"
+    grid-template-areas: "heder heder"
+                          "nav nav"
                           "main saidbar1"
                           "main saidbar2";
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: .5em;
+}
+
+.a{
+    grid-column: main;
+    grid-row: main;
+    background: fuchsia;
+}
+
+.b{
+    grid-column: heder;
+    grid-row: heder;
+    background: cornflowerblue;
+}
+
+.c{
+    grid-column: nav;
+    grid-row: nav;
+    background: red;
+}
+
+.d{
+    grid-column: saidbar1;
+    grid-row: saidbar1;
+    background: mediumvioletred;
+}
+
+.e{
+    grid-column: saidbar2;
+    grid-row: saidbar2;
+    background: plum;
+}
+
+.f{
+    display: none;
 }
