@@ -7,9 +7,15 @@ body{
     max-width: 1080px;
 }
 
-.container > *{
+.container > * {
     background: cyan;
     border-radius: .5em;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.container > * {
+    margin-bottom: 1.5em;
 }
