@@ -10,4 +10,6 @@ body{
 .container > *{
     background: cyan;
     border-radius: .5em;
+    display: flex;
+    align-items: center;
 }
