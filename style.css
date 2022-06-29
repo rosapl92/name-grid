@@ -10,5 +10,4 @@ body{
 .container > *{
     background: cyan;
     border-radius: .5em;
-
 }
